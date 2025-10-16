@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Pengguna Acak</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero-section">
+    <h1>✨ Temukan Profil Anda ✨</h1>
+    <p>Klik tombol di bawah dan temui profil yang anda cari!</p>
+  </header>
+
+  <main class="container">
+    <div id="user-profile" class="profile-card">
+      <div class="glow-border"></div>
+      <div class="profile-header">
+        <div class="profile-image-wrapper">
+          <img id="user-photo" src="" alt="Foto Pengguna" class="profile-photo" />
+        </div>
+        <h2 id="user-name">Memuat...</h2>
+      </div>
+      <p id="user-email">Email: Memuat...</p>
+      <p id="user-location">Lokasi: Memuat...</p>
+
+      <button id="refresh-button" class="floating-btn">
+        <i class="fas fa-sync-alt"></i> Muat Pengguna Baru
+      </button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Halaman Profile .</p>
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
